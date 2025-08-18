@@ -1,4 +1,17 @@
-/** @type {import('next').NextConfig} */
+<!-- // Folder Structure -->
+<pre>
+project/
+  src/
+    app/        ← App Router pages/layout
+    ui/         ← Component UI dùng chung
+    lib/        ← Hàm tiện ích, xử lý logic
+    styles/     ← CSS/Tailwind config
+  public/       ← Ảnh, font, file tĩnh
+  jsconfig.json
+
+
+src="{post.image}" => src = {post.image}
+
 const nextConfig = {
   images: {
     remotePatterns: [
@@ -11,5 +24,3 @@ const nextConfig = {
     // domains: ['images.unsplash.com', 'picsum.photos', 'source.unsplash.com'],
   },
 };
-
-export default nextConfig;

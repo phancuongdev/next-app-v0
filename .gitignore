@@ -1,4 +1,5 @@
 # Dependencies
+<<<<<<< HEAD
 node_modules/
 .pnp
 .pnp.js
@@ -18,11 +19,37 @@ build/
 *.pem
 
 # Debug logs
+=======
+/node_modules
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+
+# Next.js
+/.next/
+/out/
+
+# Production
+/build
+
+# Misc
+.DS_Store
+*.tgz
+*.tar.gz
+
+# Debug
+>>>>>>> simple-blog
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+<<<<<<< HEAD
 # Local environment files
+=======
+# Local env files
+>>>>>>> simple-blog
 .env
 .env.local
 .env.development.local
@@ -32,6 +59,12 @@ yarn-error.log*
 # Vercel
 .vercel
 
+<<<<<<< HEAD
 # IDE config
 .vscode/
 .idea/
+=======
+# IDE
+.vscode/
+.idea/
+>>>>>>> simple-blog
