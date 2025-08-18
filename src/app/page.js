@@ -8,12 +8,12 @@ export default function Page() {
       <section className="bg-gray-900 text-white py-16 text-center">
         <h1 className="text-4xl font-bold mb-4">Chào mừng đến với My Blog</h1>
         <p className="text-lg mb-6">Chia sẻ kiến thức lập trình & công nghệ</p>
-        <a
+        <Link
           href="#"
           className="bg-blue-500 px-6 py-2 rounded hover:bg-blue-600 transition"
         >
           Xem bài viết mới nhất
-        </a>
+        </Link>
       </section>
 
       <main className="flex-grow">
