@@ -11,7 +11,7 @@ export default function PostCard({ post }) {
         />
       </Link>
       <div className="p-4">
-        <h2 className="text-xl font-semibold mb-2">{post.title}</h2>
+        <Link className="text-xl font-semibold mb-2">{post.title}</Link>
         <p className="text-gray-600 mb-4">{post.description}</p>
         <Link href={post.link} className="text-blue-500 hover:underline">
           Đọc tiếp →
