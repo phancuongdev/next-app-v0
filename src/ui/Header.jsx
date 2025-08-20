@@ -8,7 +8,7 @@ export default function Header() {
           <h1 className="text-2xl font-bold text-gray-800">My Blog</h1>
         </Link>
 
-        <nav className="space-x-6">
+        <nav className="space-x-6 hidden lg:block">
           <Link
             href="/"
             className="text-gray-700 hover:text-blue-600 font-medium"

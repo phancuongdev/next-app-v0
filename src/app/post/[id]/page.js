@@ -14,8 +14,9 @@ export default async function Page({ params }) {
   }
 
   return (
-    <article className="max-w-3xl mx-auto p-6">
+    <article className="max-w-3xl mx-auto p-6 min-h-[calc(100vh-160px)]">
       <div className="relative w-full h-64 mb-6">
+        {console.log(post.image)}
         <Image
           src={post.image}
           alt={post.title}
